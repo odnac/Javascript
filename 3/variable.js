@@ -1,6 +1,6 @@
 'use strict';
 
-// 2. Variable
+// 2. Variable, rw(read/write)
 // let (added in ES6)
 // mutable data type
 let globalName = 'global name';
@@ -20,7 +20,7 @@ console.log(globalName);  // global name
 age = 4;
 var age;
 
-// Contants
+// 3. Contant, r(read only)
 // favor immutable data type always fr a few reasons:
 // - security
 // - thread safety
